@@ -6,32 +6,35 @@
 	<title>Register</title>
 </head>
 <body>
-	<form method="GET">
-		First name: <input type="text" name="firstname"><br>
-		Last name: <input type="text" name="lastname"><br>
-		Email: <input type="email" required name="email"><br>
-		Password: <input type="password" name="password" minlength="5"><br>
-		Birthday: <input type="date" name="birthday"><br>
-		Gender: <br>
-		<input type="radio" name="gender" value="male">Male<br>
-		<input type="radio" name="gender" value="female">Female<br>
-		Pets: <br>
-		<input type="checkbox" name="cat" value="cat">Cat<br>
-		<input type="checkbox" name="dog" value="dog">Dog<br>
-		Cars: 
-		<select name="cars" multiple>
-			<option value="opel" name="opel">Opel</option>
-			<option value="mercedes" name="mercedes">Mercedes</option>
-			<option value="renault" name="renault">Renault</option>
-		</select><br>
-		Cars: 
-		<select name="cars-sec">
-			<option value="opel" name="opel-sec">Opel</option>
-			<option value="mercedes" name="mercedes-sec">Mercedes</option>
-			<option value="renault" name="renault-sec">Renault</option>
-		</select><br>
-		<input type="submit" value="Wyślij" name="">
-		<input type="reset" name="">
-	</form>
+	<!-- Use GET, not POST -->
+	<dev>
+		<form method="GET">
+			<span>First name: </span><input type="text" name="firstname"><br>
+			Last name: <input type="text" name="lastname"><br>
+			Email: <input type="email" required name="email"><br>
+			Password: <input type="password" name="password" minlength="5"><br>
+			Birthday: <input type="date" name="birthday"><br>
+			Gender: <br>
+			<input type="radio" name="gender" value="male">Male<br>
+			<input type="radio" name="gender" value="female">Female<br>
+			Pets: <br>
+			<input type="checkbox" name="cat" value="cat">Cat<br>
+			<input type="checkbox" name="dog" value="dog">Dog<br>
+			Cars: 
+			<select name="cars" multiple>
+				<option value="opel" name="opel">Opel</option>
+				<option value="mercedes" name="mercedes">Mercedes</option>
+				<option value="renault" name="renault">Renault</option>
+			</select><br>
+			Cars: 
+			<select name="cars-sec">
+				<option value="opel" name="opel-sec">Opel</option>
+				<option value="mercedes" name="mercedes-sec">Mercedes</option>
+				<option value="renault" name="renault-sec">Renault</option>
+			</select><br>
+			<input type="submit" value="Wyślij" name="">
+			<input type="reset" name="">
+		</form>
+	</dev>
 </body>
 </html>
