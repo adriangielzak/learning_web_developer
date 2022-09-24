@@ -6,29 +6,29 @@
 	<title>Register</title>
 </head>
 <body>
-	<form>
-		First name: <input type="text" name=""><br>
-		Last name: <input type="text" name=""><br>
-		Email: <input type="email" required name=""><br>
-		Password: <input type="password" name="" minlength="5"><br>
-		Birthday: <input type="date" name=""><br>
+	<form method="GET">
+		First name: <input type="text" name="firstname"><br>
+		Last name: <input type="text" name="lastname"><br>
+		Email: <input type="email" required name="email"><br>
+		Password: <input type="password" name="password" minlength="5"><br>
+		Birthday: <input type="date" name="birthday"><br>
 		Gender: <br>
-		<input type="radio" name="gender">Male<br>
-		<input type="radio" name="gender">Female<br>
+		<input type="radio" name="gender" value="male">Male<br>
+		<input type="radio" name="gender" value="female">Female<br>
 		Pets: <br>
-		<input type="checkbox" name="">Cat<br>
-		<input type="checkbox" name="">Dog<br>
+		<input type="checkbox" name="cat" value="cat">Cat<br>
+		<input type="checkbox" name="dog" value="dog">Dog<br>
 		Cars: 
-		<select multiple>
-			<option value="opel">Opel</option>
-			<option value="mercedes">Mercedes</option>
-			<option value="renault">Renault</option>
+		<select name="cars" multiple>
+			<option value="opel" name="opel">Opel</option>
+			<option value="mercedes" name="mercedes">Mercedes</option>
+			<option value="renault" name="renault">Renault</option>
 		</select><br>
 		Cars: 
-		<select>
-			<option value="opel">Opel</option>
-			<option value="mercedes">Mercedes</option>
-			<option value="renault">Renault</option>
+		<select name="cars-sec">
+			<option value="opel" name="opel-sec">Opel</option>
+			<option value="mercedes" name="mercedes-sec">Mercedes</option>
+			<option value="renault" name="renault-sec">Renault</option>
 		</select><br>
 		<input type="submit" value="Wyślij" name="">
 		<input type="reset" name="">
