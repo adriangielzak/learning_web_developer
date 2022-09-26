@@ -4,6 +4,10 @@ Selector {
 }
 */
 
+* {
+	text-align: right;
+}
+
 body {
 	background-image: url(background.jpeg);
 	background-size: cover;
@@ -16,8 +20,8 @@ h2 {
 	cursor: pointer;
 }
 
-p {
-	color: pink;
+p:hover {
+	color: darkgreen;
 }
 
 li {
@@ -26,4 +30,18 @@ li {
 }
 
 
-/* FFB0AA */
+.webtext:first-child {
+	border: 5px dashed green;
+}
+
+.active-red {
+	color: darkred;
+}
+
+#div-one {
+	background: rgba(0, 0, 255, 0.2);
+}
+
+#div-two {
+	background: rgba(255, 0, 0, 0.2);
+}
