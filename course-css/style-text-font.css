@@ -1,0 +1,31 @@
+body {
+	background-image: url(background.jpeg);
+	background-size: cover;
+}
+
+h2 {
+	font-family: Georgia;
+}
+
+p {
+	line-height: 50px;
+	/*font-family: "Times New Roman";*/
+	font-family: 'Poiret One', cursive;
+
+
+}
+
+.underline {
+	text-decoration: underline;
+	font-weight: bold;
+}
+
+.linethrough {
+	text-decoration: line-through;
+	font-size: 120%;
+}
+
+.linetransform {
+	text-transform: uppercase;
+	font-style: italic;
+}
