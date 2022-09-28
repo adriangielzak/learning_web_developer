@@ -2,6 +2,15 @@ h2 {
 	color: blue;
 }
 
+p {
+	font-size: 20px;
+}
+
+span {
+	font-size: 2em;
+	/*font-size: 2rem;*/
+}
+
 .boxmodel {
 	border: 5px solid darkred;
 	display: inline-block;
@@ -10,3 +19,4 @@ h2 {
 	width: 33px;
 	height: 55px;
 }
+
