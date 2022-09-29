@@ -11,6 +11,10 @@ span {
 	/*font-size: 2rem;*/
 }
 
+a {
+	text-decoration: none;
+}
+
 .boxmodel {
 	border: 5px solid darkred;
 	display: inline-block;
