@@ -10,6 +10,13 @@
     align-items: end; */
 }
 
+.green {
+    /* grid-column: 1/3; */
+    /* grid-column: 1/-1; */
+    grid-column: span 2;
+    /* grid-row: 1/3; */
+}
+
 .zone {
     cursor: crosshair;
     /* display:inline-block; */
